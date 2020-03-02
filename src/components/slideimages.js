@@ -1,31 +1,32 @@
 import React from 'react';
-import {Carousel} from 'react-bootstrap';
+import '../assets/css/slideimagesstyle.css'
+import {Carousel,Image} from 'react-bootstrap';
 import Assets from '../constants/Image'
 
 export default function Slideimages(){
     return(
-        <div><Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={Assets.CHAIR_IMAGE}
+        <div><Carousel className="carousel">
+        <Carousel.Item >
+          <Image
+            className="carouselImage"
+            src={Assets.SOFA_IMAGE}
             alt="First slide"
           />
           
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+          <Image
+            className="carouselImage"
+            src={Assets.CHAIR_IMAGE}
             alt="Third slide"
           />
       
          
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+          <Image
+            className="carouselImage"
+            src={Assets.HALL_IMAGE}
             alt="Third slide"
           />
       
