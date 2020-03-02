@@ -9,7 +9,9 @@ export default function Inputs(props){
         <Form.Label>{props.Label}</Form.Label>
         <Form.Control 
             type={props.type} 
-            placeholder={props.placeholder} />
+            placeholder={props.placeholder}
+            onBlur={props.handleChange}
+            />
         </Form.Group>
     );
 }

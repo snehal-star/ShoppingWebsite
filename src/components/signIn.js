@@ -18,7 +18,7 @@ export default class SignIn extends React.Component{
                     <Col xs={5}>
                         <Row className="signInInfo" >
                             <Form>
-                                <h3 className="signInInfo_header">Sign In</h3>
+                                <h3 className="signInInfo_header">Sign In</h3><br/>
                                 <Inputs Label="Username" type="text" placeholder="Username..."/>
                                 <br/>
                                 <Inputs Label="Password" type="password" placeholder="************"/>
