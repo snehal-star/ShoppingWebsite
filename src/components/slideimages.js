@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/slideimagesstyle.css'
+import '../assets/css/slideimagesstyle.css';
 import {Carousel,Image} from 'react-bootstrap';
 import Assets from '../constants/Image'
 

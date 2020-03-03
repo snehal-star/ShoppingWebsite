@@ -1,10 +1,29 @@
-.Navbar{
-    background-color:black ;
+.homeNav{
+    background-color:black !important ;
 
 }
+.navbarBrand{
+    
+    display: none;
+    font-size: 40px !important;
+
+}
+.navbarBrand_home , .navbarBrand_product, .navbarBrand_order{
+padding-left:7% !important; 
+color:white !important;
+font-size: 17px;
+
+}
+.navbarBrandStore{
+    color:red;
+}
+.navbarBrandNeo{
+    color:white;
+}
+
 .cartButton{
     background-color: white !important;
-    width:200px;
+    width:150px;
 }
 .forUser{
     background-color: white !important;
