@@ -14,6 +14,16 @@ color:white !important;
 font-size: 17px;
 
 }
+.input{
+    /* margin-right: 3%; */
+    widows: 40px !important; 
+    
+    margin-left: 5%;
+    /* height: */
+}
+.input_formcontrol{
+    height:46px !important;
+}
 .navbarBrandStore{
     color:red;
 }
@@ -23,7 +33,14 @@ font-size: 17px;
 
 .cartButton{
     background-color: white !important;
-    width:150px;
+    width:250px !important;
+    height:46px;
+}
+.userDropdown{
+    background-color: white !important; 
+}
+#userDropdown_toggle{
+    background-color: white !important; 
 }
 .forUser{
     background-color: white !important;

@@ -5,7 +5,7 @@ import Assets from '../constants/Image'
 
 export default function Slideimages(){
     return(
-        <div><Carousel className="carousel">
+        <div id="forSlideImage"><Carousel className="carousel">
         <Carousel.Item >
           <Image
             className="carouselImage"
